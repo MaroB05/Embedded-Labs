@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Problem: Implement a swap function to swap 2 variables using pointers
 void swap(int* a, int* b){
   int temp = *b;
   *b = *a;
